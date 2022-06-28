@@ -1,3 +1,6 @@
+--Blue Sphere Live
+--Created by BaconOmelette
+--www.baconomelette.com
 client.SetGameExtraPadding(0, 16, 256, 16) --Expand window to make room for layout images
 
 Grid = {} -- Initialize Grid Array, keep in mind that LUA arrays start at 1 where as the game's array for blue spheres starts at 0
@@ -54,4 +57,3 @@ while true do
     end
 	emu.frameadvance()
 end
-
